@@ -1,0 +1,16 @@
+trigger:
+- master
+
+variables:
+- template: vars.sonar.yml
+  
+stages:
+  - template: default_stages.yml
+    parameters:
+      environment: Prod   
+      azureSubscription: 'azure-sub'
+      appType: 'webAppLinux'
+      WebAppName: 'appName'
+      projectKey: ${{ variables.projectKey }}
+      projectToken: ${{ variables.projectToken }}
+      connection: ${{ variables.connection }}
