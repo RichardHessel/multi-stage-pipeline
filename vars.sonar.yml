@@ -1,0 +1,6 @@
+variables:
+    connection: 'ip-connection'
+    projectKey: 'project-key'
+    projectName: 'project-name'
+    scannerMode: 'MSBuild'
+    projectToken: 'project-token'
