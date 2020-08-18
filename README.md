@@ -1,4 +1,4 @@
-# multi-stage-pipeline
+# multi-stage-azure-pipeline
 Pipeline yaml para executar ci/cd no azure devops
 
 O pipeline foi criado com o intuito de colocar em prática os aprendizados adquiridos no estudo da documentação disponibilizada pela microsoft.
